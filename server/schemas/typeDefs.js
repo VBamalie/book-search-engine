@@ -38,6 +38,10 @@ type Mutation{
         bookId: String!
         _id: String!
     ): User
+    login(
+        username: String!,
+        password: String!
+        ): Auth
 }
 `
 

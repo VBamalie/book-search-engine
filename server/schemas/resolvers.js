@@ -32,5 +32,6 @@ const resolvers = {
             if (!user) {
               throw new AuthenticationError('No profile with this username found!');
             }
+        }
     }
 }
